@@ -16,6 +16,7 @@ namespace GraphQLAnalyticsAPI.Data.DataContext
         public DbSet<User> Users { get; set; }
         public DbSet<Metric> Metrics { get; set; }
         public DbSet<Event> Events { get; set; }
+        public DbSet<Post>Posts { get;set;}
         public DbSet<Role> Roles { get; set; }
     }
 }
